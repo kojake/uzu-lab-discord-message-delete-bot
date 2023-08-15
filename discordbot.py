@@ -1,7 +1,7 @@
 import discord
 
 # 自分のBotのアクセストークンに置き換えてください
-TOKEN = 'MTE0MDg3NjAyMDgwNzg5NzE5MA.GZIMI_.CnNnzaq8N7sLaSIZhcUdxL08JR2Xz3KzUBHSt4'
+TOKEN = ''
 
 # 必要な Intents を設定
 intents = discord.Intents.default()
