@@ -20,7 +20,8 @@ async def on_ready():
 Inappropriate_message = [
     "うんこ",
     "ちんこ",
-    "",
+    "死ね",
+    "気色悪い",
 ]
 
 # メッセージ受信時に動作する処理
@@ -29,6 +30,7 @@ async def on_message(message):
     # メッセージ送信者がBotだった場合は無視する
     if message.author.bot:
         return
+
     #不適切な言葉が入っていないかをチェック
     content = message.content.lower()  # メッセージを小文字に変換して検査
     for word in Inappropriate_message:
